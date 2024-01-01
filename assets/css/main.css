@@ -1549,7 +1549,15 @@ body {
     transform: scale(0);
   }
 }
-.containerr * {
+.container * {
   -webkit-animation-play-state: paused !important;
   animation-play-state: paused !important;
 } /*# sourceMappingURL=main.css.map */
+
+@media screen and (max-width: 600px) {
+  .swal2-popup .swal2-input {
+    font-size: 14px;
+    width: 80%; /* Atur lebar input sesuai kebutuhan */
+  }
+}
+
