@@ -6,7 +6,7 @@ onload = () => {
     myAudio.play();
 
     function openWhatsAppChat(message) {
-        const phoneNumber = '087871537199'; // Ganti dengan nomor telepon yang diinginkan
+        const phoneNumber = '6287871537199'; // Ganti dengan nomor telepon yang diinginkan
     
         window.open(`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`, '_blank');
     }
