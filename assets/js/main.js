@@ -23,5 +23,5 @@ onload = () => {
                 openWhatsAppChat(message);
             }
         });
-    }, 2000); // Jeda waktu 2 detik sebelum muncul SweetAlert
+    }, 5000); // Jeda waktu 2 detik sebelum muncul SweetAlert
     
