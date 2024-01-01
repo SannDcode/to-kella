@@ -226,7 +226,7 @@ button {
     fill: red;
     position: relative;
     top: 0;
-    right: -50px;
+    right: 0;
     width: 100px;
     height: 100px;
     animation: pulse 2s ease infinite, geserBae 1s ease-in-out infinite;
